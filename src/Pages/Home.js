@@ -2,8 +2,8 @@ import { Typography, Box, Paper } from "@mui/material";
 
 const Home = () => {
   return (
-    <Box sx={{ backgroundColor: "backgrounds.main4", m: 0, p: 0, height: '100vh' }}>
-      <Paper sx={{ m:2, p: 2 }} elevation={2}>
+    <Box sx={{ backgroundColor: "transparent", m: 0, p: 2, pt: 4, height: '100vh' }}>
+      <Paper sx={{ backgroundColor: 'backgrounds.main2', m: 0, p: 2 }} elevation={12}>
         <Typography variant="h3">Home</Typography>
       </Paper>
     </Box>
