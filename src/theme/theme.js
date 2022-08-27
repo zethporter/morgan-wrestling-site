@@ -4,24 +4,24 @@ import { cyan, pink } from "@mui/material/colors";
 const theme = createTheme({
   palette: {
     primary: {
-      main: "#53101A",
+      main: "#51232e",
     },
     secondary: {
       main: "#FCBA04",
     },
     backgrounds: {
-      main: "#fdf6f7",
-      main2: "#fae5e8",
-      main3: "#f7d4d9",
-      main4: "#f3c3ca",
-      main5: "#f0b2bb",
+      main: "#fcf8f9",
+      main2: "#f6eaed",
+      main3: "#f0dbe0",
+      main4: "#e9cdd4",
+      main5: "#ddb1bb",
     },
     darks: {
-      dark1: "#090203",
-      dark2: "#1a0508",
-      dark3: "#2b080d",
-      dark4: "#3c0c13",
-      dark5: "#3c0c13",
+      dark1: "#070304",
+      dark2: "#15090c",
+      dark3: "#240f14",
+      dark4: "#32161c",
+      dark5: "#401c24",
     },
   },
   typography: {
