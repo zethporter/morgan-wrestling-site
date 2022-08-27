@@ -1,9 +1,24 @@
 import React from 'react';
+import { Calendar, momentLocalizer } from "react-big-calendar";
+import moment from "moment";
+import { Paper } from '@mui/material';
 
-const Calendar = () => {
+import "react-big-calendar/lib/css/react-big-calendar.css";
+
+const localizer = momentLocalizer(moment);
+
+const CalendarPage = () => {
   return (
-    <h1>Calendar</h1>
+    <Paper elevation={3} sx={{ p: 2 }}>
+      <Calendar
+          localizer={localizer}
+          defaultDate={new Date()}
+          defaultView="month"
+          // events={this.state.events}
+          style={{ height: "100vh" }}
+        />
+    </Paper>
   );
 }
 
-export default Calendar;
+export default CalendarPage;
